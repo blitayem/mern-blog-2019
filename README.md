@@ -42,3 +42,14 @@ Then you are all set. You can go to `http://localhost:3000/` to check you live a
 ## Proxy
 
 Please refer to [this link](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development).
+
+
+
+Server
+npm run dev
+Client
+npm run start
+DB
+docker pull mongo
+docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.4
+
